@@ -18,7 +18,7 @@ ___FILEBASENAMEASIDENTIFIER___::___FILEBASENAMEASIDENTIFIER___(){
 ___FILEBASENAMEASIDENTIFIER___ *___FILEBASENAMEASIDENTIFIER___::getInstance()
 {
     if(_instance == nullptr)
-        _instance = new KsiazkaController;
+        _instance = new ___FILEBASENAMEASIDENTIFIER___();
     
     return _instance;
 }
